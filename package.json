@@ -1,0 +1,16 @@
+{
+  "name": "testapplicationnodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/service.js",
+    "test": "node --test test/",
+    "test:coverage": "node --test --experimental-test-coverage test/",
+    "test:debug": "node --inspect --watch --test test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
